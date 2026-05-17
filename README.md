@@ -1,16 +1,49 @@
-# React + Vite
+# 🌱 Esteira Agro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sistema de gestão visual de operações de crédito rural baseado em Kanban, desenvolvido para acompanhar o fluxo de propostas agrícolas de forma simples, organizada e intuitiva.
 
-Currently, two official plugins are available:
+## 📌 Sobre o projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+O **Esteira Agro** permite controlar o andamento de financiamentos rurais em diferentes etapas da esteira operacional, desde a intenção inicial até a liberação da proposta.
 
-## React Compiler
+A proposta é oferecer uma visão clara das operações em andamento, facilitando o acompanhamento, a organização e a tomada de decisão por equipes que atuam com crédito rural.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Funcionalidades
 
-## Expanding the ESLint configuration
+- Gestão visual de propostas em modelo Kanban
+- Controle de etapas do fluxo operacional
+- Cadastro, edição e exclusão de propostas rurais
+- Classificação por programa e linha de crédito
+- Filtros por modalidade
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🎯 Objetivo
+
+Facilitar o acompanhamento operacional de propostas de crédito rural, tornando o processo mais visual, organizado e eficiente.
+
+## 📄 Licença
+
+Este projeto está licenciado sob a licença MIT.
+
+```text
+MIT License
+
+Copyright (c) 2026 Wagner Quadros
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
