@@ -1,0 +1,11 @@
+.board {
+    display: flex;
+    gap: 12px;
+    padding: 20px;
+    overflow-x: auto;
+}
+
+.board-vazio {
+    font-size: 0.85rem;
+    color: #7a93b4;
+}

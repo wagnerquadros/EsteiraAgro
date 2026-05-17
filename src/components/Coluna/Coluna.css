@@ -1,0 +1,32 @@
+.coluna {
+    background: #132035;
+    border-radius: 10px;
+    width: 270px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-top: 3px solid #e67e22;
+}
+
+.coluna-cabecalho {
+    padding: 11px 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.coluna-titulo {
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #e8edf5;
+}
+
+.coluna-lista {
+    padding: 8px;
+    flex: 1;
+    min-height: 80px;
+}
