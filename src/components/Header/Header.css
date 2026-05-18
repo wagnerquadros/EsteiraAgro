@@ -4,11 +4,76 @@
     height: 52px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    flex-shrink: 0;
+}
+
+.header-esquerda {
+    display: flex;
+    align-items: center;
+    min-width: 200px;
 }
 
 .header-titulo {
     font-size: 0.95rem;
     font-weight: 600;
+    color: #e8edf5;
+    white-space: nowrap;
+}
+
+.header-centro {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-stat {
+    font-size: 0.82rem;
+    color: #7a93b4;
+}
+
+.header-separador {
+    color: #2a4060;
+    font-size: 0.9rem;
+}
+
+.header-direita {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-width: 200px;
+    justify-content: flex-end;
+}
+
+.header-vistas {
+    display: flex;
+    background: #0d1b2e;
+    border-radius: 6px;
+    padding: 3px;
+    gap: 2px;
+}
+
+.header-vista-btn {
+    background: transparent;
+    border: none;
+    color: #7a93b4;
+    cursor: pointer;
+    width: 30px;
+    height: 26px;
+    border-radius: 4px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.15s;
+}
+
+.header-vista-btn:hover {
+    color: #e8edf5;
+}
+
+.header-vista-btn.ativo {
+    background: #132035;
     color: #e8edf5;
 }

@@ -9,3 +9,33 @@
     font-size: 0.85rem;
     color: #7a93b4;
 }
+
+.board--lista {
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.board--lista .coluna {
+    width: 100%;
+}
+
+.board-botao-adicionar {
+    background: transparent;
+    border: 2px dashed rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    width: 200px;
+    flex-shrink: 0;
+    padding: 16px;
+    color: #7a93b4;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    align-self: flex-start;
+}
+
+.board-botao-adicionar:hover {
+    border-color: rgba(255, 255, 255, 0.3);
+    color: #e8edf5;
+}
+

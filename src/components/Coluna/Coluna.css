@@ -17,16 +17,129 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
+.coluna-cabecalho-esquerda {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
 .coluna-titulo {
     font-size: 0.72rem;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     color: #e8edf5;
+    cursor: pointer;
+    border-bottom: 1px dashed transparent;
+    transition: border-color 0.15s;
+}
+
+.coluna-titulo:hover {
+    border-bottom-color: rgba(255, 255, 255, 0.3);
+}
+
+.coluna-titulo-input {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    color: #e8edf5;
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 2px 6px;
+    width: 130px;
+    outline: none;
+    font-family: inherit;
+}
+
+.coluna-titulo-input:focus {
+    border-color: rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.12);
 }
 
 .coluna-lista {
     padding: 8px;
     flex: 1;
     min-height: 80px;
+}
+
+.coluna-cor {
+    width: 16px;
+    height: 16px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0;
+    background: none;
+    flex-shrink: 0;
+}
+
+.coluna-cor::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+.coluna-cor::-webkit-color-swatch {
+    border: none;
+    border-radius: 50%;
+}
+
+.coluna-alca {
+    color: #7a93b4;
+    cursor: grab;
+    font-size: 1rem;
+    padding: 0 4px;
+    border-radius: 4px;
+    transition: color 0.15s;
+    user-select: none;
+}
+
+.coluna-alca:hover {
+    color: #e8edf5;
+}
+
+.coluna-alca:active {
+    cursor: grabbing;
+}
+
+.coluna-botao-excluir {
+    background: none;
+    border: none;
+    color: #7a93b4;
+    cursor: pointer;
+    font-size: 0.85rem;
+    padding: 2px 6px;
+    border-radius: 4px;
+    transition: all 0.15s;
+}
+
+.coluna-botao-excluir:hover {
+    background: rgba(231, 76, 60, 0.15);
+    color: #e74c3c;
+}
+.coluna-cor::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+.coluna-cor::-webkit-color-swatch {
+    border: none;
+    border-radius: 50%;
+}
+
+.coluna-alca {
+    color: #7a93b4;
+    cursor: grab;
+    font-size: 1rem;
+    padding: 0 4px;
+    border-radius: 4px;
+    transition: color 0.15s;
+    user-select: none;
+}
+
+.coluna-alca:hover {
+    color: #e8edf5;
+}
+
+.coluna-alca:active {
+    cursor: grabbing;
 }
